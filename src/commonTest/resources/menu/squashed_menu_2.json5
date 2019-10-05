@@ -1,0 +1,6 @@
+{
+  "_menu_id": "123", // All attributes propagate to child objects
+  "menu_Id": "file",
+  "menu_value": "File",
+  "_popup_Id": "123"
+}

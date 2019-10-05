@@ -1,0 +1,10 @@
+{
+  "_menu_id": "123",
+  "menu_Id": "file",
+  "menu_value": "File",
+  "_popup_Id": "123",
+  "_menuitem_id": "123",
+  "_menuitem_index": "1", // List index
+  "menuitem_value": "New",
+  "menuitem_onclick": "CreateNewDoc()"
+}

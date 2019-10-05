@@ -1,0 +1,5 @@
+{
+  "_menu_id": "123", // Generated values start with "_"
+  "menu_id": "file", // Keys are prefixed with their owning object's key
+  "menu_value": "File"
+}
