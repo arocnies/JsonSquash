@@ -1,2 +1,2 @@
-rootProject.name = "DataSquash"
+rootProject.name = "JsonSquash"
 
