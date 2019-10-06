@@ -9,7 +9,7 @@ class MenuSquashTest {
 
     @BeforeTest fun `Squash menu JSON`() {
         val menuJson = this::class.java.getResource("menu/unsquashed_menu.json5").readText()
-        squashedJson = DataSquash().squash(StringReader(menuJson))
+        squashedJson = JsonSquash().squash(StringReader(menuJson))
     }
 
     @Test fun `has no nested objects`() {
