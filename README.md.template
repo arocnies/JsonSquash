@@ -1,17 +1,17 @@
 Squash your nested data into flat structures!
 
-DataSquash takes hierarchical data and produces the flatten components for that data.
+JsonSquash takes hierarchical data and produces the flatten components for that data.
 This is particularly useful when trying to visualize data in Kibana, which does not fully support nested objects [LINK TO ISSUE].
 ```json5
-@file(src/commonTest/resources/menu/unsquashed_menu.json5)
+@file(src/test/resources/menu/unsquashed_menu.json5)
 ```
 Gets squashed into...
 ```json5
-@file(src/commonTest/resources/menu/squashed_menu_1.json5)
+@file(src/test/resources/menu/squashed_menu_1.json5)
 ```
 ```json5
-@file(src/commonTest/resources/menu/squashed_menu_2.json5)
+@file(src/test/resources/menu/squashed_menu_2.json5)
 ```
 ```json5
-@file(src/commonTest/resources/menu/squashed_menu_3.json5)
+@file(src/test/resources/menu/squashed_menu_3.json5)
 ```
